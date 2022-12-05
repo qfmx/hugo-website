@@ -2,6 +2,7 @@
 
 
 ## 部署Example
+
 ```shell
 hugo #部署prod环境
 hugo -D #部署dev环境
@@ -35,6 +36,43 @@ hugo server -D #dev环境本地预览 localhost:1313
 {{< admonition example >}} 一个 **示例** 横幅 {{< /admonition >}}
 
  {{< admonition quote >}} 一个 **引用** 横幅 {{< /admonition >}}
+
+## 嵌入Bilibili
+
+```html
+<style>
+    .meta-media {
+      position: relative;
+      margin-bottom: 30px;
+      float: left;
+      width: 100%;
+      height: 0;
+      padding-bottom: 75%;
+    }
+    .video {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+</style>
+
+<div class="meta-media"><iframe src="//player.bilibili.com/player.html?aid=887265786&bvid=BV16K4y1T79N&cid=314257093&page=1" frameborder="no" scrolling="yes" allowfullscreen="allowfullscreen" high_quality="1" framespacing="1" class="video" > </iframe></div>
+```
+## Metting JS
+```
+\{\{< music auto="https://music.163.com/#/playlist?id=60198" >}}
+或者
+\{\{< music "https://music.163.com/#/playlist?id=7311031783" >}}
+\{\{< music server="netease" type="song" id="1868553" >}}
+或者
+\{\{< music netease song 1868553 >}}
+
+使用时: 去除\
+see：https://hugoloveit.com/zh-cn/theme-documentation-music-shortcode/#custom-music-url
+```
+
 
 ---
 
