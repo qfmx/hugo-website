@@ -867,7 +867,7 @@ theme = "FixIt"
     [menu.main.params]
       icon = "fa-solid fa-heart"
   [[menu.main]]
-    identifier = "about"
+    identifier = "friends"
     pre = ""
     post = ""
     name = "友情链接"
