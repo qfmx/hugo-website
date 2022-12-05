@@ -84,6 +84,21 @@ handler.on('push', function (event) {
 })
 ```
 
+## 关闭TCP Port
+
+**重要**：先去关闭安全组，再关闭防火墙。
+
+**重要**：先去关闭安全组，再关闭防火墙。
+
+**重要**：先去关闭安全组，再关闭防火墙。
+
+```shell
+firewall-cmd --add-port=3306/tcp        # 开放通过tcp访问3306
+firewall-cmd --remove-port=80tcp        # 阻止通过tcp访问3306
+firewall-cmd --add-port=233/udp         # 开放通过udp访问233
+firewall-cmd --list-ports               # 查看开放的端口
+```
+
 
 
 # Location Bat File
