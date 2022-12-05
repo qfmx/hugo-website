@@ -1,37 +1,39 @@
-# 主题设置
+# 主题的一些设置
 
 
 # Example
 
-- 多线程
+hugo #部署prod环境
+hugo -D #部署dev环境
+hugo server #prod环境本地预览 localhost:1313
+hugo server -D #dev环境本地预览 localhost:1313
 
-```java
-public class MyThread extends Thread { 
-  public void run() { 
-    System.out.println("MyThread.run()");
-    }
-}
-MyThread myThread1 = new MyThread(); 
-myThread1.start();
+# 横幅使用
 ```
+{{< admonition >}} 一个 **注意** 横幅 {{< /admonition >}}
 
-- 子菜单配置
+ {{< admonition abstract >}} 一个 **摘要** 横幅 {{< /admonition >}}
 
-```markdown
----
-title: "主题文档 - 基本概念"
-author: "Lruihao"
-menu:
-  main:
-    title: "探索 Hugo - FixIt 主题的全部内容和背后的核心概念。"
-    parent: "documentation"
-    params:
-      icon: "fa-brands fa-readme"
----
-...
+ {{< admonition info >}} 一个 **信息** 横幅 {{< /admonition >}} 
+
+{{< admonition tip >}} 一个 **技巧** 横幅 {{< /admonition >}} 
+
+{{< admonition success >}} 一个 **成功** 横幅 {{< /admonition >}} 
+
+{{< admonition question >}} 一个 **问题** 横幅 {{< /admonition >}} 
+
+{{< admonition warning >}} 一个 **警告** 横幅 {{< /admonition >}} 
+
+{{< admonition failure >}} 一个 **失败** 横幅 {{< /admonition >}} 
+
+{{< admonition danger >}} 一个 **危险** 横幅 {{< /admonition >}}
+
+ {{< admonition bug >}} 一个 **Bug** 横幅 {{< /admonition >}} 
+
+{{< admonition example >}} 一个 **示例** 横幅 {{< /admonition >}}
+
+ {{< admonition quote >}} 一个 **引用** 横幅 {{< /admonition >}}
 ```
-
-
 
 ---
 

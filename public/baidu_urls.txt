@@ -7,6 +7,4 @@ https://allms.cn/mybatis/5/
 https://allms.cn/001-theme-sitting/
 https://allms.cn/mybatis/6/
 https://allms.cn/mybatis/4/
-https://allms.cn/spring-cloud/a/
-https://allms.cn/%E9%AB%98%E5%B9%B6%E5%8F%91/%E8%AE%BE%E8%AE%A1/
 https://allms.cn/friends/
