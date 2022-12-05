@@ -50,30 +50,30 @@
         </div>
       {{- end -}}
 
-      {{- if .Site.Params.footer.siteTime | or .Site.Params.footer.wordCount -}}
-        <div class="footer-line statistics">
-          {{- if .Site.Params.footer.siteTime -}}
-            <span class="site-time" title='{{ T "siteRunning" }}'>
-              {{- dict "Class" "fa-solid fa-heartbeat fa-fw animate-icon" | partial "plugin/icon.html" -}}&nbsp;
-              {{- printf `<span class="run-times">%v</span>` (T "siteRunning") | safeHTML -}}
-            </span>
-          {{- end -}}
-        </div>
-      {{- end -}}
+<!--      {{- if .Site.Params.footer.siteTime | or .Site.Params.footer.wordCount -}}-->
+<!--        <div class="footer-line statistics">-->
+<!--          {{- if .Site.Params.footer.siteTime -}}-->
+<!--            <span class="site-time" title='{{ T "siteRunning" }}'>-->
+<!--              {{- dict "Class" "fa-solid fa-heartbeat fa-fw animate-icon" | partial "plugin/icon.html" -}}&nbsp;-->
+<!--              {{- printf `<span class="run-times">%v</span>` (T "siteRunning") | safeHTML -}}-->
+<!--            </span>-->
+<!--          {{- end -}}-->
+<!--        </div>-->
+<!--      {{- end -}}-->
 
-      {{- /* 不蒜子 */ -}}
-      {{- if eq .Site.Params.ibruce.enable true -}}
-        {{- $loading := dict "Class" "fa-solid fa-spinner fa-spin fa-fw" | partial "plugin/icon.html" -}}
-        <div class="footer-line ibruce">
-          <span id="busuanzi_container_site_uv" title='{{ T "siteUV" }}'>
-            {{- dict "Class" "fa-regular fa-user fa-fw" | partial "plugin/icon.html" -}}&nbsp;<span id="busuanzi_value_site_uv">{{ $loading }}</span>{{- /* NO_SPACING */ -}}
-          </span>
-          {{- /* NO_SPACING */ -}}
-          <span id="busuanzi_container_site_pv" class="footer-divider" title='{{ T "sitePV" }}'>
-            {{- dict "Class" "fa-regular fa-eye fa-fw" | partial "plugin/icon.html" -}}&nbsp;<span id="busuanzi_value_site_pv">{{ $loading }}</span>{{- /* NO_SPACING */ -}}
-          </span>
-        </div>
-      {{- end -}}
+<!--      {{- /* 不蒜子 */ -}}-->
+<!--      {{- if eq .Site.Params.ibruce.enable true -}}-->
+<!--        {{- $loading := dict "Class" "fa-solid fa-spinner fa-spin fa-fw" | partial "plugin/icon.html" -}}-->
+<!--        <div class="footer-line ibruce">-->
+<!--          <span id="busuanzi_container_site_uv" title='{{ T "siteUV" }}'>-->
+<!--            {{- dict "Class" "fa-regular fa-user fa-fw" | partial "plugin/icon.html" -}}&nbsp;<span id="busuanzi_value_site_uv">{{ $loading }}</span>{{- /* NO_SPACING */ -}}-->
+<!--          </span>-->
+<!--          {{- /* NO_SPACING */ -}}-->
+<!--          <span id="busuanzi_container_site_pv" class="footer-divider" title='{{ T "sitePV" }}'>-->
+<!--            {{- dict "Class" "fa-regular fa-eye fa-fw" | partial "plugin/icon.html" -}}&nbsp;<span id="busuanzi_value_site_pv">{{ $loading }}</span>{{- /* NO_SPACING */ -}}-->
+<!--          </span>-->
+<!--        </div>-->
+<!--      {{- end -}}-->
       
       {{- if .Site.Params.footer.gov | or .Site.Params.footer.icp -}}
         <div class="footer-line beian">

@@ -18,7 +18,7 @@
   <pubDate>Thu, 24 Nov 2022 18:57:46 &#43;0800</pubDate>
   <author>阿猫会游泳</author>
   <guid>https://allms.cn/001-theme-sitting/</guid>
-  <description><![CDATA[Example hugo #部署prod环境 hugo -D #部署dev环境 hugo server #prod环境本地预览 localhost:1313 hugo server -D #dev环境本地预览 localhost:1313 横幅使用 注意 一个 注意 横幅 摘要 一个 摘要 横幅 信]]></description>
+  <description><![CDATA[部署Example 1 2 3 4 hugo #部署prod环境 hugo -D #部署dev环境 hugo server #prod环境本地预览 localhost:1313 hugo server -D #dev环境本地预览 localhost:1313 横幅使用 注意 一个 注]]></description>
 </item>
 </channel>
 </rss>

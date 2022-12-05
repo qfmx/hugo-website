@@ -40,12 +40,14 @@ repost:
   url: ""
 ---
 
-## Example
-
+## 部署Example
+```shell
 hugo #部署prod环境
 hugo -D #部署dev环境
 hugo server #prod环境本地预览 localhost:1313
 hugo server -D #dev环境本地预览 localhost:1313
+```
+
 
 ## 横幅使用
 
