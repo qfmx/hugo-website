@@ -90,7 +90,7 @@ handler.on('issues', function (event) {
 ```js
 var http = require('http')
 var createHandler = require('github-webhook-handler')
-var handler = createHandler({ path: '/hugo', secret: 'lawang123123' })
+var handler = createHandler({ path: '/hugo', secret: 'hugo-sdfssd11' })
 // 上面的 secret 保持和 GitHub 后台设置的一致
 
 function run_cmd(cmd, args, callback) {
