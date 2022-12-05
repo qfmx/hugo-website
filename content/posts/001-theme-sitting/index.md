@@ -1,6 +1,6 @@
 ---
-title: "My First Post"
-subtitle: ""
+title: "主题设置"
+subtitle: "基于Hugo的FixIt模板的一些设置"
 date: 2022-11-24T18:57:46+08:00
 draft: true
 author: "阿猫会游泳"
@@ -13,9 +13,9 @@ comment: false
 weight: 0
 
 tags:
-- draft
+- website
 categories:
-- draft
+- 建站
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -38,8 +38,6 @@ seo:
 repost:
   enable: true
   url: ""
-
-# See details front matter: https://fixit.lruihao.cn/theme-documentation-content/#front-matter
 ---
 
 # Example

@@ -1,9 +1,10 @@
+https://allms.cn/002-website-sync/
 https://allms.cn/mybatis/1/
 https://allms.cn/about/
 https://allms.cn/mybatis/2/
 https://allms.cn/mybatis/3/
 https://allms.cn/mybatis/5/
-https://allms.cn/theme-sitting/
+https://allms.cn/001-theme-sitting/
 https://allms.cn/mybatis/6/
 https://allms.cn/mybatis/4/
 https://allms.cn/spring-cloud/a/
