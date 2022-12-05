@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>draft - 分类 - 浅枫沐雪</title>
+    <link>https://allms.cn/categories/draft/</link>
+    <description>draft - 分类 - 浅枫沐雪</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1125438556@qq.com (阿猫会游泳)</managingEditor>
+      <webMaster>1125438556@qq.com (阿猫会游泳)</webMaster><lastBuildDate>Thu, 24 Nov 2022 18:57:46 &#43;0800</lastBuildDate><atom:link href="https://allms.cn/categories/draft/" rel="self" type="application/rss+xml" /><item>
+  <title>My First Post</title>
+  <link>https://allms.cn/theme-sitting/</link>
+  <pubDate>Thu, 24 Nov 2022 18:57:46 &#43;0800</pubDate>
+  <author>阿猫会游泳</author>
+  <guid>https://allms.cn/theme-sitting/</guid>
+  <description><![CDATA[Example 多线程 1 2 3 4 5 6 7 public class MyThread extends Thread { public void run() { System.out.println(&#34;MyThread.run()&#34;); } } MyThread myThread1 = new MyThread(); myThread1.start(); 子菜单配置 1 2 3 4 5 6 7 8 9 10 11 --- title: &#34;主题文档 - 基本概念&#34; author: &#34;Lruihao&#34; menu:]]></description>
+</item>
+</channel>
+</rss>
