@@ -1,20 +1,20 @@
 # 主题的一些设置
 
 
-# Example
+## Example
 
 hugo #部署prod环境
 hugo -D #部署dev环境
 hugo server #prod环境本地预览 localhost:1313
 hugo server -D #dev环境本地预览 localhost:1313
 
-# 横幅使用
-```
+## 横幅使用
+
 {{< admonition >}} 一个 **注意** 横幅 {{< /admonition >}}
 
- {{< admonition abstract >}} 一个 **摘要** 横幅 {{< /admonition >}}
+{{< admonition abstract >}} 一个 **摘要** 横幅 {{< /admonition >}}
 
- {{< admonition info >}} 一个 **信息** 横幅 {{< /admonition >}} 
+{{< admonition info >}} 一个 **信息** 横幅 {{< /admonition >}} 
 
 {{< admonition tip >}} 一个 **技巧** 横幅 {{< /admonition >}} 
 
@@ -33,7 +33,6 @@ hugo server -D #dev环境本地预览 localhost:1313
 {{< admonition example >}} 一个 **示例** 横幅 {{< /admonition >}}
 
  {{< admonition quote >}} 一个 **引用** 横幅 {{< /admonition >}}
-```
 
 ---
 
