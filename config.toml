@@ -448,16 +448,16 @@ theme = "FixIt"
         shortname = ""
       #  Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
-        enable = true
+        enable = false
         owner = "qfmx"
         repo = "hugo-gitalk-issue"
         clientId = "d08627adf1f403257d33"
         clientSecret = "ca228c9b5d41ef0ab80321bebf32ee46bbf6b386"
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = false
-        appId = ""
-        appKey = ""
+        enable = true
+        appId = "kOAw4L0Ej9unbMgywrLFPWNa-gzGzoHsz"
+        appKey = "y1v2iejvkGnJ7qXe6wEpwQGY"
         placeholder = ""
         avatar = "mp"
         meta= ""
