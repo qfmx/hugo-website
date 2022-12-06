@@ -426,7 +426,7 @@ theme = "FixIt"
 
    #  评论系统设置
     [params.page.comment]
-      enable = true
+      enable = false
       #  Artalk 评论系统设置 (https://artalk.js.org/)
       [params.page.comment.artalk]
         enable = false
@@ -455,7 +455,7 @@ theme = "FixIt"
         clientSecret = "ca228c9b5d41ef0ab80321bebf32ee46bbf6b386"
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = true
+        enable = false
         appId = "kOAw4L0Ej9unbMgywrLFPWNa-gzGzoHsz"
         appKey = "y1v2iejvkGnJ7qXe6wEpwQGY"
         placeholder = ""
