@@ -451,8 +451,8 @@ theme = "FixIt"
         enable = true
         owner = "qfmx"
         repo = "hugo-gitalk-issue"
-        clientId = "Iv1.28d8b4565ce2bff7"
-        clientSecret = "72737243b2fe897cda31d348da161f98f0ff4e45"
+        clientId = "d08627adf1f403257d33"
+        clientSecret = "ca228c9b5d41ef0ab80321bebf32ee46bbf6b386"
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = false
