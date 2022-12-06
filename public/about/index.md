@@ -1,6 +1,9 @@
 # 关于
 
 
+## 听听音乐
+{{< music auto="https://music.163.com/#/playlist?id=7311031783" >}}
+
 ## 本因有你，倍加珍兮
 
 <style>
@@ -29,8 +32,9 @@
 **阿猫会游泳**：一个佛系的coding民工。
 {{< /admonition >}}
 
-## 听点音乐
-{{< music auto="https://music.163.com/#/playlist?id=7311031783" >}}
+## 联系我
+- qq：`1125438556`
+- 微信：`xichu_v_v`
 
 ---
 

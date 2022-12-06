@@ -4,6 +4,9 @@ date: 2022-11-25T18:51:53+08:00
 draft: true
 ---
 
+## 听听音乐
+{{< music auto="https://music.163.com/#/playlist?id=7311031783" >}}
+
 ## 本因有你，倍加珍兮
 
 <style>
@@ -32,5 +35,6 @@ draft: true
 **阿猫会游泳**：一个佛系的coding民工。
 {{< /admonition >}}
 
-## 听点音乐
-{{< music auto="https://music.163.com/#/playlist?id=7311031783" >}}
+## 联系我
+- qq：`1125438556`
+- 微信：`xichu_v_v`

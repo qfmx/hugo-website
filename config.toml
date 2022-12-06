@@ -255,7 +255,7 @@ theme = "FixIt"
     Ko-Fi = ""
     BuyMeaCoffee = ""
     Linktree = ""
-    QQ = "100886"
+    QQ = ""
     QQGroup = "" # https://qun.qq.com/join.html
     Diaspora = ""
     CSDN = ""
@@ -270,8 +270,8 @@ theme = "FixIt"
     RootMe = ""
     Feishu = ""
     TryHackMe = ""
-    Phone = "100886"
-    Email = "100886@qq.com"
+    Phone = ""
+    Email = ""
     RSS = true
 
   #  文章页面配置
