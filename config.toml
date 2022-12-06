@@ -448,16 +448,16 @@ theme = "FixIt"
         shortname = ""
       #  Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
-        enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
+        enable = true
+        owner = "qfmx"
+        repo = "hugo-gitalk-issue"
+        clientId = "Iv1.28d8b4565ce2bff7"
+        clientSecret = "72737243b2fe897cda31d348da161f98f0ff4e45"
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = true
-        appId = "kOAw4L0Ej9unbMgywrLFPWNa-gzGzoHsz"
-        appKey = "y1v2iejvkGnJ7qXe6wEpwQGY"
+        enable = false
+        appId = ""
+        appKey = ""
         placeholder = ""
         avatar = "mp"
         meta= ""
@@ -467,7 +467,7 @@ theme = "FixIt"
         recordIP = true
         highlight = true
         enableQQ = true
-        serverURLs = "https://word.allms.cn"
+        serverURLs = ""
         #  emoji 数据文件名称，默认是 "google.yml"
         # ["apple.yml", "google.yml", "facebook.yml", "twitter.yml"]
         # 位于 "themes/FixIt/assets/lib/valine/emoji/" 目录
