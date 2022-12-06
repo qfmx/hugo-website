@@ -449,7 +449,7 @@ theme = "FixIt"
       #  Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
         enable = true
-        owner = "qfmx"
+        owner = "@qfmx"
         repo = "hugo-gitalk-issue"
         clientId = "Iv1.28d8b4565ce2bff7"
         clientSecret = "72737243b2fe897cda31d348da161f98f0ff4e45"
